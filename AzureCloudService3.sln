@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "AzureCloudService3", "AzureCloudService3\AzureCloudService3.ccproj", "{C24BFB73-C970-428C-83AE-6EDAAB68A03A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFServiceWebRole1", "WCFServiceWebRole1\WCFServiceWebRole1.csproj", "{6BF3085C-3267-448B-BE37-AE9FECF2A1C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoadmasterServiceClient", "..\RoadmasterServiceClient\RoadmasterServiceClient\RoadmasterServiceClient.csproj", "{CEDEF8AB-C653-471B-906F-B874001A8BB8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C24BFB73-C970-428C-83AE-6EDAAB68A03A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C24BFB73-C970-428C-83AE-6EDAAB68A03A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C24BFB73-C970-428C-83AE-6EDAAB68A03A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C24BFB73-C970-428C-83AE-6EDAAB68A03A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BF3085C-3267-448B-BE37-AE9FECF2A1C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BF3085C-3267-448B-BE37-AE9FECF2A1C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BF3085C-3267-448B-BE37-AE9FECF2A1C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BF3085C-3267-448B-BE37-AE9FECF2A1C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEDEF8AB-C653-471B-906F-B874001A8BB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEDEF8AB-C653-471B-906F-B874001A8BB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEDEF8AB-C653-471B-906F-B874001A8BB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEDEF8AB-C653-471B-906F-B874001A8BB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
